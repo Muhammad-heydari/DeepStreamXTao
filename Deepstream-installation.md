@@ -101,6 +101,8 @@ sudo ldconfig
 ```
 update rtspmanager
 ```
+cd ~/Documents/Dependencies/glib/build/
+sudo ninja install
 cd /opt/nvidia/deepstream/deepstream-7.0
 sudo bash update_rtpmanager.sh
 ```
