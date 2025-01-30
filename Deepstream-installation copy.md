@@ -54,9 +54,9 @@ python3
 ```
 add key to repository
 ```
-$ sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/3bf863cc.pub
-$ sudo add-apt-repository "deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/ /"
-$ sudo apt-get update
+sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/3bf863cc.pub
+sudo add-apt-repository "deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/ /"
+sudo apt-get update
 ```
 install cuda
 ```
@@ -74,6 +74,7 @@ libnvonnxparsers8=8.6.1.6-1+cuda12.0 libnvinfer-vc-plugin-dev=8.6.1.6-1+cuda12.0
 ```
 install librdkafka
 ```
+cd ~/Documents/Dependencies/
 git clone https://github.com/confluentinc/librdkafka.git
 cd librdkafka
 git checkout tags/v2.2.0
@@ -83,11 +84,13 @@ sudo make install
 ```
 Downlaod deepstream-7.0_7.0.0-1_amd64.deb from https://catalog.ngc.nvidia.com/orgs/nvidia/resources/deepstream/files?version=7.0 or use this command
 ```
+cd ~/Documents/Dependencies/
 sudo apt-get install curl
-curl -LO 'https://api.ngc.nvidia.com/v2/resources/org/nvidia/deepstream/7.0/files?redirect=true&path=deepstream-7.0_7.0.0-1_amd64.deb'
+curl -Lo deepstream-7.0_7.0.0-1_amd64.deb 'https://api.ngc.nvidia.com/v2/resources/org/nvidia/deepstream/7.0/files?redirect=true&path=deepstream-7.0_7.0.0-1_amd64.deb'
 ```
 install deepstream
 ```
+cd ~/Documents/Dependencies/
 sudo apt-get install ./deepstream-7.0_7.0.0-1_amd64.deb
 ```
 Copy the generated libraries to the deepstream directory
@@ -95,4 +98,9 @@ Copy the generated libraries to the deepstream directory
 sudo mkdir -p /opt/nvidia/deepstream/deepstream/lib
 sudo cp /usr/local/lib/librdkafka* /opt/nvidia/deepstream/deepstream/lib
 sudo ldconfig
+```
+update rtspmanager
+```
+cd /opt/nvidia/deepstream/deepstream-7.0
+sudo bash update_rtpmanager.sh
 ```
