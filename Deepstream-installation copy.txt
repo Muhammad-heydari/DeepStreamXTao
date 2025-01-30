@@ -1,0 +1,10 @@
+Deepstream7.0
+prerequarment :
+ubuntu 22
+
+upgrade packages:
+```
+sudo apt update
+sudo apt upgrade
+sudo apt-get install ninja-build meson git
+```
