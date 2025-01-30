@@ -3,7 +3,7 @@ prerequarment :
 ubuntu 22
 
 upgrade packages:
-```basg
+```
 sudo apt update
 sudo apt upgrade
 sudo apt-get install ninja-build meson git
