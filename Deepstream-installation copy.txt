@@ -3,10 +3,8 @@ prerequarment :
 ubuntu 22
 
 upgrade packages:
-````
-```
+```ruby
 sudo apt update
 sudo apt upgrade
 sudo apt-get install ninja-build meson git
 ```
-````
