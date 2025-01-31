@@ -1,6 +1,6 @@
 # **TAO Installation**
 
-**NVIDIA TAO**, is a python based AI toolkit that is built on TensorFlow and PyTorch for computer vision applications. It simplifies and accelerates the model training process by abstracting away the complexity of AI models and the underlying deep learning framework. You can use the power of transfer learning to fine-tune NVIDIA pretrained models with your own data and optimize the model for inference throughput — all without the need for AI expertise or large training datasets.
+[**NVIDIA TAO**](https://github.com/NVIDIA/tao_tutorials), is a python based AI toolkit that is built on TensorFlow and PyTorch for computer vision applications. It simplifies and accelerates the model training process by abstracting away the complexity of AI models and the underlying deep learning framework. You can use the power of transfer learning to fine-tune NVIDIA pretrained models with your own data and optimize the model for inference throughput — all without the need for AI expertise or large training datasets.
 
 On this page, we are going to install Tao 4.0.1 and use it in a **docker container**, because there is regression issue for detectnet_v2 in 5.0.1 docker 
 you can find this problem [here](https://forums.developer.nvidia.com/t/getting-0-map-for-detectnet-v2-model-over-150-epochs/316986)
