@@ -61,6 +61,7 @@ sudo apt-get update
 install cuda
 ```
  sudo apt-get install cuda-toolkit-12-2
+ sudo apt install nvidia-cuda-toolkit
 ```
 install tensorrt
 ```
