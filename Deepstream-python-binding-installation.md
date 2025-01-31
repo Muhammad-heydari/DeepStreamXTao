@@ -24,7 +24,7 @@ cd 3rdparty/gstreamer/subprojects/gst-python/
 meson setup build
 cd build
 ninja
-ninja install
+sudo ninja install
 ```
 Compiling the bindings
 ```
