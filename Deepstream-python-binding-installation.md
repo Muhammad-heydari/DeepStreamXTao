@@ -3,14 +3,14 @@
 This repository contains Python bindings and sample applications for the DeepStream SDK 7.0. 
 the main repository is [here](https://github.com/NVIDIA-AI-IOT/deepstream_python_apps/tree/master/bindings)
 
-## Installing Deepstream python Binding
-### Pre-Requirment
+## Installing Deepstream Python Binding
+### Pre-Requirement
 | Software                    | Version  |
 |-----------------------------|----------------|
 | Ubuntu LTS                   | 22.04   |
 | Deepstream SDK                   | 7.0   |
 
-you can intall Deepstream7.0 from [Deepstream-installation.md](Deepstream-installation.md)
+you can install Deepstream7.0 from [Deepstream-installation.md](Deepstream-installation.md)
 ## 1. Install Dependencies  
 ```
 sudo apt install python3-gi python3-dev python3-gst-1.0 python-gi-dev git meson \
@@ -48,7 +48,7 @@ cd build
 cmake .. -DS_VERSION=7.0 -DPYTHON_MAJOR_VERSION=3 -DPYTHON_MINOR_VERSION=10 
 make -j$(nproc)
 ```
-## 5. create python envierment and install Packages
+## 5. create Python envierment and install Packages
 ```
 cd ~/Documents
 python3.10 -m venv deepstream-venv
