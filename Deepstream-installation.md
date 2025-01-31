@@ -1,5 +1,6 @@
 # Deepstream7.0
 NVIDIA® DeepStream Software Development Kit (SDK) is an accelerated AI framework to build intelligent video analytics (IVA) pipelines. DeepStream runs on NVIDIA® T4, NVIDIA® Hopper, NVIDIA® Ampere, NVIDIA® ADA and platforms such as NVIDIA® Jetson AGX Orin™, NVIDIA® Jetson Orin™ NX, NVIDIA® Jetson Orin™ Nano. For dGPU platforms Enterprise GPUs are highly recommended for deployments that are expected to run 24x7. Gaming GPUs are not designed to perform in such type of environments.
+> if you've already installed deepstream you can install Deepstream Python Binding by lokking at [Deepstream-python-binding-install.md](Deepstream-python-binding-install.md)
 
 ### Pre-Requirement
 | Software                    | Version  |
@@ -99,7 +100,7 @@ make
 sudo make install
 ```
 ## 7. Install Deepstream SDK 
-### 7.1. Downlaod deepstream-7.0_7.0.0-1_amd64.deb from https://catalog.ngc.nvidia.com/orgs/nvidia/resources/deepstream/files?version=7.0 or use this command
+### 7.1. Downlaod deepstream-7.0_7.0.0-1_amd64.deb from [here](https://catalog.ngc.nvidia.com/orgs/nvidia/resources/deepstream/files?version=7.0) or use this command
 ```
 cd ~/Documents/Dependencies/
 sudo apt-get install curl
