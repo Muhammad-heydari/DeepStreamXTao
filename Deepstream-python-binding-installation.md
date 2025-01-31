@@ -1,8 +1,9 @@
-#Deepstream Python Binding
+# Deepstream Python Binding
+
 This repository contains Python bindings and sample applications for the DeepStream SDK 7.0. 
 the main repository is [here](https://github.com/NVIDIA-AI-IOT/deepstream_python_apps/tree/master/bindings)
 
-##Installing Deepstream python Binding
+## Installing Deepstream python Binding
 ### Pre-Requirment
 | Software                    | Version  |
 |-----------------------------|----------------|
