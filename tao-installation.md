@@ -14,7 +14,6 @@ you can find this problem [here](https://forums.developer.nvidia.com/t/getting-0
 ### what we are going to install: 
 | Software                    | Version        | Comment                                                           |
 |-----------------------------|----------------|-------------------------------------------------------------------|
-| Ubuntu LTS                   | 22.04          |                                                                   |
 | python                       | ==3.10.x       | Not needed if you are using TAO API (See #3 below)                |
 | docker-ce                    | >19.03.5       | Not needed if you are using TAO API (See #3 below)                |
 | docker-API                   | 1.40           | Not needed if you are using TAO API (See #3 below)                |
