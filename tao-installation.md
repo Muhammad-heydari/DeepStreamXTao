@@ -1,8 +1,8 @@
 # **TAO Installation**
 
-[**NVIDIA TAO**](https://github.com/NVIDIA/tao_tutorials), is a python based AI toolkit that is built on TensorFlow and PyTorch for computer vision applications. It simplifies and accelerates the model training process by abstracting away the complexity of AI models and the underlying deep learning framework. You can use the power of transfer learning to fine-tune NVIDIA pretrained models with your own data and optimize the model for inference throughput — all without the need for AI expertise or large training datasets.
+[**NVIDIA TAO**](https://github.com/NVIDIA/tao_tutorials), is a python-based AI toolkit that is built on TensorFlow and PyTorch for computer vision applications. It simplifies and accelerates the model training process by abstracting away the complexity of AI models and the underlying deep learning framework. You can use the power of transfer learning to fine-tune NVIDIA pre-trained models with your own data and optimize the model for inference throughput — all without the need for AI expertise or large training datasets.
 
-On this page, we are going to install Tao 4.0.1 and use it in a **docker container**, because there is regression issue for detectnet_v2 in 5.0.1 docker 
+On this page, we are going to install Tao 4.0.1 and use it in a **docker container**, because there is a regression issue for detectnet_v2 in 5.0.1 docker 
 you can find this problem [here](https://forums.developer.nvidia.com/t/getting-0-map-for-detectnet-v2-model-over-150-epochs/316986)
 
 ## Pre-Requirment
@@ -23,14 +23,14 @@ you can find this problem [here](https://forums.developer.nvidia.com/t/getting-0
 | nvidia-driver                | >550.xx        | Not needed if you are using TAO API (See #3 below)                |
 | python-pip                   | >21.06         | Not needed if you are using TAO API (See #3 below)                |
 
-## 1. install nvidia-driver 
-### 1.1 uninstall previous nvidia-driver and cuda
+## 1. install Nvidia-driver 
+### 1.1 Uninstall previous Nvidia-driver and Cuda
 ```
 sudo apt-get --purge remove "*cublas*" "cuda*" "nsight*" 
 sudo apt-get --purge remove "*nvidia*"
 sudo rm -rf /usr/local/cuda*
 ```
-### 1.2 install nvidia-driver-550
+### 1.2 install Nvidia-driver-550
 ```
 sudo apt-get install nvidia-driver-550
 ```
@@ -59,7 +59,7 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 sudo docker run hello-world
 ```
-## 3. post-install docker
+## 3. Post-install docker
 we have to modify Docker that can be run without sudo (https://docs.nvidia.com/tao/tao-toolkit/text/quick_start_guide/beginner.html) 
 ### 3.1. Create the docker group
 ```
@@ -98,7 +98,7 @@ Password: <your api key>
 ```
 docker pull nvcr.io/nvidia/tao/tao-toolkit:4.0.1-tf1.15.5
 ```
-## 7. run docker container
+## 7. Run docker container
 be aware that **tao-folder** is where your workspace, spec files and your training data exist
 ```
 docker run --runtime=nvidia -it --rm -d --name 4.0.1-docker -v <tao-folder>:<tao-folder> nvcr.io/nvidia/tao/tao-toolkit:4.0.1-tf1.15.5 /bin/bash
