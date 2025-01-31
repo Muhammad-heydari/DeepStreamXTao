@@ -1,4 +1,4 @@
-#**TAO Installation**
+# **TAO Installation**
 
 **NVIDIA TAO**, is a python based AI toolkit that is built on TensorFlow and PyTorch for computer vision applications. It simplifies and accelerates the model training process by abstracting away the complexity of AI models and the underlying deep learning framework. You can use the power of transfer learning to fine-tune NVIDIA pretrained models with your own data and optimize the model for inference throughput — all without the need for AI expertise or large training datasets.
 
