@@ -25,7 +25,9 @@ you can find this problem [here](https://forums.developer.nvidia.com/t/getting-0
   | python-pip                   | >21.06         | Not needed if you are using TAO API (See #3 below)                |
   
   ### 1. install docker(https://docs.docker.com/engine/install/ubuntu/)
+    
     1.1 uninstall old-version
+    
     ```
     for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
     ```
