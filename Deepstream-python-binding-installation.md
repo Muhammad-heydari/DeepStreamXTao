@@ -8,6 +8,7 @@ the main repository is [here](https://github.com/NVIDIA-AI-IOT/deepstream_python
 |-----------------------------|----------------|
 | Ubuntu LTS                   | 22.04   |
 | Deepstream SDK                   | 7.0   |
+
 you can intall Deepstream7.0 from [Deepstream-installation.md](Deepstream-installation.md)
 ## 1. Install Dependencies  
 ```
