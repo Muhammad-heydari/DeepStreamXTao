@@ -20,7 +20,7 @@ sudo update-ca-certificates
 ```
 Build and install gst-python:
 ```
-cd 3rdparty/gstreamer/subprojects/gst-python/
+cd /opt/nvidia/deepstream/deepstream/sources/deepstream_python_apps/3rdparty/gstreamer/subprojects/gst-python/
 meson setup build
 cd build
 ninja
@@ -39,9 +39,9 @@ create python envierment and install ds
 cd ~/Documents
 python3.10 -m venv deepstream-venv
 source deepstream-venv/bin/activate
+cd /opt/nvidia/deepstream/deepstream/sources/deepstream_python_apps/bindings/build
+pip install --upgrade pip
 pip3 install ./pyds-1.1.11-py3-none*.whl
 pip3 install cuda-python
 ```
-pip install --upgrade pip
-pip3 install ./pyds-1.1.11-py3-none*.whl
-```
+
