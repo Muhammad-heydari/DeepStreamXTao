@@ -11,7 +11,7 @@ you can find this problem [here](https://forums.developer.nvidia.com/t/getting-0
 | Ubuntu LTS                   | 22.04   |
 # Installing Tao
 
-### > what we are going to install: 
+> what we are going to install: 
 | Software                    | Version        | Comment                                                           |
 |-----------------------------|----------------|-------------------------------------------------------------------|
 | Ubuntu LTS                   | 22.04          |                                                                   |
