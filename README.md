@@ -15,8 +15,8 @@ you can watch (Tao-Installation.md)[Tao-Installation.md] for installing Deepstre
 
 you can run deepstream by running one of *thease* methods:
 
-using python binding by referring to [here](deepstream-python/main.py)  
+1.1. using python binding by referring to [here](deepstream-python/main.py)  
 
-using service-maker-cpp by referring to [here](deepstream-service-maker-cpp/deepstream.cpp)  
+2.2.using service-maker-cpp by referring to [here](deepstream-service-maker-cpp/deepstream.cpp)  
 
-using pure-cpp by referring to [here](https://github.com/Muhammad-heydari/deepstream-pure-cpp)  
+2.3.using pure-cpp by referring to [here](https://github.com/Muhammad-heydari/deepstream-pure-cpp)  
