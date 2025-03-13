@@ -78,11 +78,11 @@ Password: <your api key>
 ```
 pulling docker
 ```
-docker pull nvcr.io/nvidia/tao/tao-toolkit:4.0.1-tf1.15.5
+docker pull nvcr.io/nvidia/tao/tao-toolkit:5.5.0-tf1.15.5
 ```
 create container and run it
 be aware that **tao-folder** is where your workspace, spec files and your training data exist
 ```
-docker run --runtime=nvidia -it --rm -d --name 4.0.1-docker -v <tao-folder>:<tao-folder> nvcr.io/nvidia/tao/tao-toolkit:4.0.1-tf1.15.5 /bin/bash
-docker exec -it 4.0.1-docker /bin/bash
+docker run --runtime=nvidia -it --rm -d --name 5.5.0-docker -v <tao-folder>:<tao-folder> nvcr.io/nvidia/tao/tao-toolkit:5.5.0-tf1.15.5 /bin/bash
+docker exec -it 5.5.0-docker /bin/bash
 ```
