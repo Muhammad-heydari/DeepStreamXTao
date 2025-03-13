@@ -6,8 +6,8 @@ there are some topics in this repo
 
 you can watch (DeepStream-Installation.md)[DeepStream-Installation.md] for installing Deepstream7.0 in your computer
 if you want to use deepstream python binding, refere to these sections in order:
-  1. (DeepStream-Installation.md)[DeepStream-Installation.md]
-  2. (Deepstream-python-binding-installation.md)[Deepstream-python-binding-installation.md]
+  1. [DeepStream-Installation.md](DeepStream-Installation.md)
+  2. [Deepstream-python-binding-installation.md](Deepstream-python-binding-installation.md)
 
 ### 1.2.Tao Installation
 
